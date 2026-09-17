@@ -6,47 +6,22 @@
 ## Gonzalo Ramos Amador 
 
 
-# Práctica de Git y GitHub: Flujo de Trabajo Colaborativo
+# Ejercicio GitHub
 
-## Objetivo
-Reforzar los conocimientos adquiridos en las sesiones de Git y GitHub mediante la construcción de una página web sencilla en equipo y la simulación de escenarios reales de control de versiones.
+**Objetivo:** Reforzar los conocimientos adquiridos en las sesiones de Git y GitHub
 
----
+**Instrucciones:** Construye una página web sencilla que incluya los elementos descritos en la lista de abajo.
 
-## Instrucciones y Elementos del Proyecto
-La página web base incluye:
-- **`index.html`**: La página de inicio.
-- **Bootstrap 5**: Incluido mediante CDN dentro del proyecto.
-- **Carpeta `css/` con `global.css`**: Archivo para los estilos personalizados de la página.
+* Página index.html: La página de inicio.
+* Boostrap 5: debe incluirse el framework dentro de nuestro proyecto (CDN)
+* Carpeta css/ archivo global.css: Los estilos de la página.
 
----
+**Tareas:**
 
-## Tareas del Ejercicio
+1. Crea un repositorio en GitHub, agrega a tus compañeros de equipo como colaboradores.
 
-### 1. Creación del Repositorio y Colaboradores
-- Se creó un repositorio central en GitHub.
-- Se agregaron a los integrantes del equipo como colaboradores con permisos de escritura para gestionar ramas y contribuciones de manera conjunta.
+2. Definan un flujo de trabajo: ¿Qué ramas vamos a utilizar? ¿Quién trabajará en cada una? ¿Cuál es la función principal de cada rama? Pueden basarse en el mismo que vimos en la sesión o intentar otro.
 
----
+3. Seleccionen un modelo de IA para trabajar.
 
-### 2. Definición del Flujo de Trabajo (Git Flow simplificado)
-Se estableció la siguiente estructura de ramas para evitar cruces de código y mantener el proyecto ordenado:
-- **`main`**: Rama principal de producción. Contiene únicamente las versiones estables y aprobadas del proyecto. Nadie programa directamente en ella.
-- **`develop`**: Rama de integración. Es el punto central donde se unen los avances de todos los colaboradores antes de pasar a `main`.
-- **Ramas de funcionalidad (`feature/nombre-colaborador` o `feature/tarea`)**: Ramas individuales creadas a partir de `develop` donde cada integrante desarrolla su parte de forma aislada.
-
----
-
-### 3. Selección del Modelo de IA
-- **IA seleccionada:** Gemini (Google).
-- **Rol asignado:** Instructor práctico de Git y GitHub, enfocado exclusivamente en guiar los procesos de sincronización, subida, descarga y resolución de incidencias entre el entorno local y GitHub.
-
----
-
-### 4. Guía de Escenarios Reales de Trabajo con Git y GitHub
-
-#### Escenario 1: Todo funciona correctamente (Flujo diario)
-1. **Clonar el repositorio por primera vez:**
-   ```bash
-   git clone <url-del-repositorio>
-   cd nombre-repositorio
+4. Una vez definido el flujo de trabajo y la IA que utilizaremos, procederemos a pedirle a través de un prompt que nos guíe SOLAMENTE en el proceso de subir y descargar nuestros cambios desde GitHub. Pídanle que les proponga escenarios de trabajo reales, donde el flujo de trabajo se desarrolla sin problemas, y también donde las cosas fallen.
